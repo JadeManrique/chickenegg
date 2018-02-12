@@ -1,5 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display');
+
+h1 {
+  font-family: 'Merriweather', serif;
+}
+
 p {
   text-indent: 40px;
+  font-family: 'Playfair Display', serif;
 }
 div {
   text-align:center;
@@ -17,8 +26,14 @@ ol.b{
 img{
 	padding-top: 20px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#historyImg {
+  padding-top: 20px;
+  display: inline-block;
+  position: relative;
 }
 
 .carousel {
@@ -45,7 +60,7 @@ img{
 }
 
     .box {
-        
+
         border-radius: 5px;
         padding: 20px;
         font-size: 100%;
@@ -60,7 +75,7 @@ img{
         grid-column: 7 /span 6;
         grid-row: row ;
     }
-    
+
     .c {
         grid-column: 1 / span 6;
         grid-row: row 2;
@@ -91,7 +106,7 @@ img{
         grid-row-start: 1;
         grid-row-end: 1;
     }
-    
+
     .i {
         grid-column-start: 8;
         grid-column-end: 12;
@@ -114,4 +129,3 @@ img{
 	.textcolor {
 		color: black;
 	}
-
