@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" type="text/js" href="scripts/script.js">
+    <link rel="stylesheet" href="scripts/script.js">
     <title>Jazz Appreciation</title>
 
-<!--Jumbotrone bootstrap links-->
+<!--Jumbotroneand carousel bootstrap links-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -17,23 +17,33 @@
 
   <body>
 <!--bootstrap jumbotron starts here-->
-    <div class="container">
+    
+    <div class="container textcolor"> 
       <div class="jumbotron">
-        <h1>Jazz appreciation</h1>
-        <p style="text-align:center;">Music expresses that which cannot be said and on which it is impossible to be silent - Victor Hugo</p>
+        <h1>Jazz appreciation</h1>      
+        <p class="textcolor">Music expresses that which cannot be said and on which it is impossible to be silent - Victor Hugo</p>
       </div>
-
     </div>
+  
+
 <!--jumbotron ends here-->
     <div>
       <h2> History of Jazz </h2>
-        <p>Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries, and developed from roots in blues and ragtime. Jazz is seen by many as 'America's classical music'. Since the 1920s Jazz Age, jazz has become recognized as a major form of musical expression. It then emerged in the form of independent traditional and popular musical styles, all linked by the common bonds of African-American and European-American musical parentage with a performance orientation. </p>
+        <p style="text-align:left;margin-left: 40px;">Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries, and developed from roots in blues and ragtime. Jazz is seen by many as 'America's classical music'. Since the 1920s Jazz Age, jazz has become recognized as a major form of musical expression. It then emerged in the form of independent traditional and popular musical styles, all linked by the common bonds of African-American and European-American musical parentage with a performance orientation. </p>
+        
+      <section class="wrapper">
+        <div class="box a">
         <img src="images/jazzgroup.jpg" alt="19th Century Jazz Group">
+        </div>
+        <div class="box b">
         <img src="images/dancing.jpg" alt="Dancing in New Orleans">
+        </div>
+      </section>
+
     </div>
 
-<!-- Jade: Instruments, Famous Musicians -->
-<!-- Luis: Modern Jazz, Local Venues -->
+<!-- Jade: Instruments, Famous Musicians, Genres -->
+<!-- Luis: Genres, Modern Jazz, Local Venues -->
 
     <div>
       <h2> Instruments </h2>
@@ -69,26 +79,78 @@
 
     <div>
       <h2> Modern Jazz </h2>
-        <u>Today's Jazz</u>
-          <p> Today’s jazz artists are basically going in one of three directions: traditional, contemporary mainstream, or "anything goes."</p>
+        <p> Today’s jazz artists are basically going in one of three directions: traditional, contemporary mainstream, or "anything goes."</p>
+    </div>
+
+    <!--bootstrap carousel starts here-->
+   <div class="container">  
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/jazznewgeneration.jpg" alt="jazz new generation" style="width:100%; height: 75%;">
+        </div>
+
+        <div class="item">
+          <img src="images/La-La-Land.jpg" alt="La-La-Land" style="width:100%; height: 75%;">
+        </div>
+      
+        <div class="item">
+          <img src="images/orchesta.jpg" alt="orchesta" style="width:100%; height: 75%;">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <br>
+  <br>
+
+<!--carousel ends here-->
+
+<section class="wrapper-2">
+    <div class="box g">
             <ol>
-              <li>Traditionalists are performing jazz mainly patterned on Blues, Swing, Bebop, and Hard Bop; in other words, they exclude Free Jazz and Fusion
-              <li>
-                <ol class="b"
+              <li>Traditionalists are performing jazz mainly patterned on Blues, Swing, Bebop, and Hard Bop; in other words, they exclude Free Jazz and Fusion</li>
+                <ol class="b">
                   <li>Traditionalists believe that what they play is "real jazz," not the various hybrids and "add-ons" (according to them) that occurred in the 1960s and since. They are also known as "jazz purists."
                   </li>
                   <li>Trumpeter Wynton Marsalis is at the forefront of this movement. He is an internationally acclaimed musician and has played a major role in the resurgence of jazz.
                   </li>
                 </ol>
-              <li>Contemporary mainstream jazz artists are influenced mostly by Hard Bop sensibilities.
-              </li>
+              </ol>
+    </div>
+
+    <div class="box h">
+            <ol>
+              <li>Contemporary mainstream jazz artists are influenced mostly by Hard Bop sensibilities.</li>
                 <ol class="b">
                   <li>Contemporary mainstream jazz artists use, for the most part, Hard Bop instrumentation and musical forms.</li>
                   <li>owever, within the Hard Bop framework, contemporary mainstream jazz artists continue to push the music forward, e.g., ever increasing technical proficiency on their instruments, expanded musical harmonies (more difficult and complex chords and chord progressions), and deeper and varied emotions expressed.</li>
                   <li>Trumpeter Terence Blanchard is one of today’s most important contemporary mainstream jazz artists.</li>
                 </ol>
+              </ol>
+    </div>
+
+    <div class="box i">
+            <ol>
               <li>“Anything goes” jazz artists will put all kinds of music into the pot and stir it up; these can include but are not limited to: all styles of jazz
-              </li>
+              </li> 
                 <ol class="b">
                   <li>all styles of jazz</li>
                   <li>classical music (mostly of the 20th and 21st century variety)</li>
@@ -99,55 +161,70 @@
             </ol>
 
     </div>
-<!--bootstrap carousel starts here-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="images/jazznewgeneration.jpg" alt="First slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/la-la-Land.jpg" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/orchesta.jpg" alt="Third slide">
-      </div>
-    </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-<!--carousel ends here-->
-    <div>
-      <h2> Fun Fact </h2>
-        <em><p style="text-align:center;">Django Reinhardt burnt his hand after knocking down a candle in a tent full of highly flammable artifical flowers in his early adulthood. As a result, he essentially glued his fingers together causing him to play a unique style playing guitar with 2 fingers.</p></em>
-    </div>
+</section>
 
-    <div>
-      <h2> Local Venues </h2>
-        <p>Now that you know the history of Jazz, you should know that San Francisco is home to some amazing jazz venues, including SFJAZZ Center: the first performing arts center in the country dedicated solely to the genre. Here is a guide to the best places to listen to live jazz in San Francisco: </p>
+
+  <div>
+    <h2> Local Venues </h2>
+     <p>Now that you know the history of Jazz, you should know that San Francisco is home to some amazing jazz venues, including SFJAZZ Center: the first performing arts center in the country dedicated solely to the genre. Here is a guide to the best places to listen to live jazz in San Francisco: 
+     </p>
+   </div>
+    <section class ="wrapper">
+      
+      <div class="box a">
           <u>Sheba Piano Lounge</u>
-          <img src="images/sheba.jpg">
-            <p>Open for dinner and drinks, Sheba Piano Lounge is an intimate jazz lounge and Ethiopian restaurant. There is live music every night starting at 8:00 p.m. on Sunday through Thursday and 9:00 p.m. on Fridays and Saturdays. The different performances could be anything from Afro-Cuban jazz to violinists.<br><br><a href="https://www.google.com/maps/place/Sheba+Piano+Lounge/@37.7829246,-122.4371478,17z/data=!4m5!3m4!1s0x808580b99cde0265:0x295861e9ad42dae8!8m2!3d37.7829246!4d-122.4327704"> Sheba Piano Lounge, 1419 Fillmore St, San Francisco, CA, USA<a> <a href="tel:+1 4154407414">1-415-440-7414<a></p><br>
+        
+            <p>Open for dinner and drinks, Sheba Piano Lounge is an intimate jazz lounge and Ethiopian restaurant. There is live music every night starting at 8:00 p.m. on Sunday through Thursday and 9:00 p.m. on Fridays and Saturdays. The different performances could be anything from Afro-Cuban jazz to violinists.
+            <br>
+            <br>
+            <a href="https://www.google.com/maps/place/Sheba+Piano+Lounge/@37.7829246,-122.4371478,17z/data=!4m5!3m4!1s0x808580b99cde0265:0x295861e9ad42dae8!8m2!3d37.7829246!4d-122.4327704"> Sheba Piano Lounge, 1419 Fillmore St, San Francisco, CA, USA</a> 
+            <br>
+            <a href="tel:+1 4154407414">1-415-440-7414</a>
+            </p>
+            <br>
+      </div>
 
+      <div class="box b">
+        <img src="images/sheba.jpg" style="width: 530px; height: 338px">
+      </div>
+
+      <div class="box c">
           <u>SFJAZZ Center</u>
-          <img src="images/sfjazz.jpg">
-            <p>Starting in 1983, SFJAZZ became a cultural center for jazz music, with over 300 performances each year at the new, 36,000-square-foot SFJAZZ Center built in 2013. Costing $64 million to construct, the new SFJAZZ Center was the first venue dedicated solely to jazz music in the country. Although the venue can accommodate up to 700 people, the performing arts center still provides an intimate atmosphere. Every year, the SFJAZZ Center holds the Jazz Festival, SFJAZZ Summer Sessions, as well as free concerts in the summer at the Stanford Shopping Center and Levi’s Plaza.<br><br><a href="https://www.google.com/maps/place/SFJAZZ+Center/@37.7763257,-122.4258135,17z/data=!3m1!4b1!4m5!3m4!1s0x808580613cc89d4b:0xcf678083be8c496d!8m2!3d37.7763257!4d-122.4214361"> SFJAZZ Center, 201 Franklin St, San Francisco, CA, USA <a> <a href="tel:+1 8669205299">1-866-920-5299<a></p>
+          
+            <p>Starting in 1983, SFJAZZ became a cultural center for jazz music, with over 300 performances each year at the new, 36,000-square-foot SFJAZZ Center built in 2013. Costing $64 million to construct, the new SFJAZZ Center was the first venue dedicated solely to jazz music in the country. Although the venue can accommodate up to 700 people, the performing arts center still provides an intimate atmosphere. Every year, the SFJAZZ Center holds the Jazz Festival, SFJAZZ Summer Sessions, as well as free concerts in the summer at the Stanford Shopping Center and Levi’s Plaza.
+            <br>
+            <br>
+            <a href="https://www.google.com/maps/place/SFJAZZ+Center/@37.7763257,-122.4258135,17z/data=!3m1!4b1!4m5!3m4!1s0x808580613cc89d4b:0xcf678083be8c496d!8m2!3d37.7763257!4d-122.4214361"> SFJAZZ Center, 201 Franklin St, San Francisco, CA, USA</a> 
+            <br>
+            <a href="tel:+1 8669205299">1-866-920-5299</a>
+            </p>
+      </div>
 
+      <div class="box d">
+        <img src="images/sfjazz.jpg">
+      </div>
+
+      <div class="box e">
             <u>Local Edition</u>
-            <img src="images/localedition.jpg">
-            <p>Local edition is a newspaper-themed bar that sits right under the Hearst building on Market and Montgomery. There is live music Monday through Wednesday night starting at 8:00 p.m.<br><br><a href="https://www.google.com/maps/place/Local+Edition/@37.787588,-122.4075662,17z/data=!3m1!4b1!4m5!3m4!1s0x808580886bcc377b:0xd8c91154d34c9887!8m2!3d37.787588!4d-122.4031888"> Local Edition, 691 Market St. San Francisco, CA, USA<a> <a href="tel:+1 4157951375">1-415-795-1375<a></p>
+            
+            <p>Local edition is a newspaper-themed bar that sits right under the Hearst building on Market and Montgomery. There is live music Monday through Wednesday night starting at 8:00 p.m.<br><br>
+            <a href="https://www.google.com/maps/place/Local+Edition/@37.787588,-122.4075662,17z/data=!3m1!4b1!4m5!3m4!1s0x808580886bcc377b:0xd8c91154d34c9887!8m2!3d37.787588!4d-122.4031888"> Local Edition, 691 Market St. San Francisco, CA, USA
+            </a>
+            <br>
+            <a href="tel:+1 4157951375">1-415-795-1375</a>
+            </p>
 
-    </div>
+      </div>
 
+      <div class="box f">
+        <img src="images/localedition.jpg" style="width: 530px; height: 338px">
+      </div>    
+
+    </section>  
+
+<!--carousel links -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
