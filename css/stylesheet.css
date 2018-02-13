@@ -23,17 +23,18 @@ ol.b{
     text-align: left;
 }
 
-img{
+#imgLeft{
 	padding-top: 20px;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
+  margin: 20px 0 20px 20px;
 }
 
-#historyImg {
+#imgRight {
   padding-top: 20px;
   display: inline-block;
-  position: relative;
+  float:right;
+  margin: 0px;
 }
 
 .carousel {
@@ -129,3 +130,6 @@ img{
 	.textcolor {
 		color: black;
 	}
+
+
+
