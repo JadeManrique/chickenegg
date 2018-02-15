@@ -33,6 +33,7 @@ u {
 	font-family: 'Permanent Marker', cursive;
 	font-family: 'Hind Siliguri', sans-serif;
 	font-size: 18px;
+	font-weight: bold;
 }
 li {
 	font-family: 'Permanent Marker', cursive;
@@ -68,7 +69,7 @@ ol.b{
 	padding-left: 35px;
 }
 
-/*grid design */
+/*grid design 
 
 
 .wrapper {
@@ -138,11 +139,11 @@ ol.b{
         grid-row-end: 1;
     }
 
+    */
+
     /*jumbotron*/
 
     .jumbotron {
-		background-color: gray;
-		/*background-image: url("../images/horning-it-up.jpg");*/
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -155,3 +156,29 @@ ol.b{
 	}
 
 
+/* unvisited link */
+a:link {
+    color: #772FB2;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+#header {
+	background-color: #772FB2;
+	border-radius: 25px;
+	padding: 25px 25px 0px 25px;
+
+}
