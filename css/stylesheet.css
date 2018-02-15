@@ -177,8 +177,15 @@ a:active {
 }
 
 #header {
-	background-color: #772FB2;
+	background-color: #B25B9E;
 	border-radius: 25px;
 	padding: 25px 25px 0px 25px;
+}
 
+div:hover>h2 {
+	background-color: #AEFF9B;
+	border-radius:25px;
+	color:#B25B9E;
+	border-style: solid;
+	border-radius: 25px;
 }
